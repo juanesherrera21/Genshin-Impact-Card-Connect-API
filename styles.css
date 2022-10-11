@@ -1,9 +1,24 @@
 .containerCards {
-    align-items: center;
-    margin: 50px;
-    border: 1px solid #000;
+  align-items: center;
+  
+  margin: 200px;
+  margin-top: 60px;
+  border: 4px solid black;
+  background-image: linear-gradient(to right top, #1f1d1e, #544949, #8d7b72, #c1b59e, #ebf5d4);
+  border-radius: 50px;
+  padding: 50px;
 
-    padding: 50px;
-    
-    
-  }
+
+}
+
+.card {
+
+  border-radius: 40px;
+  border: solid white;
+
+}
+
+.rounded-circle {
+
+  border: 2px solid black;
+}
