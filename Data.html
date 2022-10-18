@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -24,58 +25,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
     <link rel="stylesheet" href="styles.css">
-
-
 </head>
 
-<body style=" 
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+<body>
+    <section id="page1">
+        <h1 style="margin-top: 60px; text-align: center;">Genshin API</h1>
 
-">
 
-    <section id="mainPage">
+        <div class="containerCards" id="containerCards">
 
-        <div class="mainMenu" id="mainMenu">
-            <h1 style="margin-top: 15px; text-align: center;">Genshin API</h1>
-            <br>
-            <button onclick="location.href='Data.html';" class="button" type="button">Ver Personajes</button>
-            <br>
-            <br>
-            <button class="button" onclick="myFunction()">Creditos</button>
+            <div class="row row-cols-1 row-cols-md-2" id="row row-cols-1 row-cols-md-2">
 
 
 
 
+            </div>
         </div>
+
+        <script src="script.js"></script>
     </section>
 
-    <section style="display: none;" id="creditPage">
-        <div class="mainMenu" id="creditos">
-            <button class="myButton" onclick="myFunction()">Volver</button>
-            <h1 style="text-align: center;">Creador</h1>
-            <div style="display: block;
-            margin-left: 340px;
-            margin-right: auto;
-            ">
-                <img src="avatar.jpg" alt="Avatar" class="rounded-circle" style="width:300px; height: 300px;">
-               
-            </div>
-            <div style="text-align: center;">
-                <h4><b>Juan Esteban Herrera</b></h4>
-            <p>Ingeniero sistemas e informatica</p>
-            </div>
-            
-            
-
-        </div>
-    </section>
-
-
-
-
-
-    <script src="script.js"></script>
 </body>
 
 </html>
